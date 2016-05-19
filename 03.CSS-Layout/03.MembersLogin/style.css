@@ -1,0 +1,106 @@
+﻿#container {
+    width: 660px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #3B3B3B;
+    margin: auto;
+}
+
+header {
+    background: -moz-linear-gradient(top, rgba(59,59,59,0.6) 0%, rgba(59,59,59,0.6) 1%, rgba(42,42,42,1) 95%, rgba(59,59,59,0.9) 100%); /* Firefox 3.6+ */
+    background: -webkit-linear-gradient(top, rgba(59,59,59,0.6) 0%,rgba(59,59,59,0.6) 1%,rgba(42,42,42,1) 95%,rgba(59,59,59,0.9) 100%); /* Chrome 10+, Safari 5.1+ */
+    background: -o-linear-gradient(top, rgba(59,59,59,0.6) 0%,rgba(59,59,59,0.6) 1%,rgba(42,42,42,1) 95%,rgba(59,59,59,0.9) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(59,59,59,0.6) 0%,rgba(59,59,59,0.6) 1%,rgba(42,42,42,1) 95%,rgba(59,59,59,0.9) 100%); /* IE 10+ */
+    border-radius: 10px;
+    height: 70px;
+}
+
+#login {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: inline;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin: 0px;
+    float: left;
+}
+
+#monitor {
+    float: left;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+input[type="text"] {
+    width: 145px;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+input[type="email"] {
+    width: 145px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background: url("images/submit.png");
+    width: 65px;
+    height: 40px;
+    vertical-align: bottom;
+    border: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: black;
+    padding-left: 10px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: black;
+    padding-left: 10px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+    padding-left: 10px;
+    opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: black;
+    padding-left: 10px;
+    opacity: 1;
+}
+
+h2 {
+
+    font-size: 30px;
+    font-weight: normal;
+    color: #FFD820;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    font-family: Calibri;
+    color: #A8A8A8;
+    padding-left: 12px;
+}
+
+article > p {
+    margin: 0;
+	width: 585px;
+}
+
+a {
+    text-decoration: none;
+    color: #A8A8A8;
+}
+
+span {
+    color: white;
+}

@@ -1,0 +1,98 @@
+﻿body {
+    font-family: Corbel, sans-serif;
+    font-size: 26px;
+}
+
+#container {
+    width: 1065px;
+    height: 780px;
+    border: 3px solid #424242;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+}
+
+#left {
+    width: 680px;
+    height: 680px;
+    border: 3px solid #424242;
+    padding: 5px;
+    float: left;
+}
+
+#right {
+    font-size: 36px;
+    width: 350px;
+    float: right;
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+}
+
+ul {
+    list-style-type:none;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    height: 45px;
+}
+
+a {
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    color: #00ADEF;
+}
+
+hr {
+    width: 94%;
+    height: 2px;
+    background-color: #424242;
+}
+
+fieldset {
+    border: 3px solid #424242;
+    text-align: center;
+    padding: 5px;
+    width: 320px;
+    height: 210px;
+    margin: 1px;
+}
+
+input {
+    width: 250px;
+}
+
+img {
+    width: 165px;
+    height: 100px;
+    float: left;
+    margin-bottom: 35px;
+}
+
+p {
+    margin: 23px 0px 23px 0px;
+}
+
+#inner-left {
+    width: 340px;
+    float: left;
+    margin-right: 3px;
+}
+
+.inside-right {
+    width: 130px;
+    float: right;
+    text-align: left;
+}
+
+.inside-left {
+    float: left;
+}
