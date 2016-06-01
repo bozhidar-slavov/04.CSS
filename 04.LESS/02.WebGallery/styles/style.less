@@ -1,0 +1,43 @@
+﻿@color: white;
+
+body {
+    background-color: darken(@color, 20%);
+
+    fieldset {
+        width: 945px;
+        border: 3px solid darken(@color, 60%);
+        border-radius: 10px;
+        position: relative;
+
+        legend {
+            font-family: Arial;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: darken(@color, 60%);
+        }
+
+        img {
+            border: 2px ridge @color;
+            border-radius: 10px;
+            width: 150px;
+            height: 150px;
+
+            &:first-of-type {
+                top: 210px;
+                display: none;
+                height: 450px;
+                width: 450px;
+                position: absolute;
+            }
+        }
+
+        input[type=radio] {
+            display: none;
+
+            &:checked + label img:first-of-type {
+                display: block;
+            }
+        }
+    }
+}
